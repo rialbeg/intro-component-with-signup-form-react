@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Frontend Mentor - Intro component with sign up form solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta é uma solução para [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1).
 
-## Available Scripts
+## Index
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [O Desafio](#o-desafio)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Feito com](#feito-com)
+  - [O que aprendi](#o-que-aprendi)
+  - [Recursos úteis](#recursos-úteis)
+- [Autor](#autor)
 
-### `yarn start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### O Desafio
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Usuários devem ser capazes de :
 
-### `yarn test`
+- Ver o layout responsivo em diferentes tamanhos de tela
+- Ver todos os estados ativos
+- Mostrar uma mensagem de erro quando o formulário for enviado:
+  - Se qualquer input for vazio exibir a mensagem. _"[Field Name] cannot be empty"_
+  - Se o email não estiver formatado corretamento como email exibir a mensagem _"Looks like this is not an email"_
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `yarn build`
+![](./screenshot.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Meu processo
 
-### `yarn eject`
+### Feito com
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Semantic HTML5 markup
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - Biblioteca JS
+- [React hook form](https://react-hook-form.com/) -Biblioteca React para lidar com formulários
+- [Yup](https://github.com/jquense/yup) - Biblioteca para auxiliar na validação dos campos do form.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### O que aprendi
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+O desafio agora foi aprender a validar o formulário utilizando bibliotecas e não fazendo tudo do zero. Embora o uso de bibliotecas facilite alguns processos, pesquisar e aprender a utilizar uma biblioteca é um bom aprendizado.
+Nesse caso aprender a utilizar o react hook form para facilitar o envio de dados do formulário e o Yup para validar os mesmos.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Recursos úteis
 
-## Learn More
+- [Validação com o yup](https://react-hook-form.com/get-started#SchemaValidation) - A documentação é incrível e foi o suficiente para fazer o projeto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Website - [Gabriel Mascarenhas](https://rialbeg.github.io/portfolio/)
+- Frontend Mentor - [@rialbeg](https://www.frontendmentor.io/profile/rialbeg)
+- Linkedin - [@gsamascarenhas](https://www.linkedin.com/in/gsamascarenhas/)

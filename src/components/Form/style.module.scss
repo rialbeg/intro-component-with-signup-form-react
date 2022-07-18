@@ -1,0 +1,67 @@
+.container {
+  margin-top: 2rem;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  form {
+    .formContainer {
+      padding: 2rem;
+      text-align: right;
+      input[type="text"],
+      input[type="password"],
+      input[type="email"] {
+        width: 100%;
+        outline: none;
+        padding: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        margin-bottom: 1rem;
+
+        &::placeholder {
+          color: black;
+          font-weight: 700;
+        }
+      }
+      input[type="submit"] {
+        padding: 1rem;
+        width: 100%;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: hsl(154, 59%, 51%);
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 8px 2px -2px rgba(0, 0, 0, 0.2);
+
+        &:hover {
+          background-color: #77e2b4;
+          cursor: pointer;
+        }
+        &:active {
+          background-color: #77e2b4;
+          box-shadow: 0 5px 2px -2px rgba(0, 0, 0, 0.5);
+          transform: translateY(4px);
+        }
+      }
+      p {
+        color: hsl(0, 100%, 74%);
+        padding-right: 0;
+      }
+    }
+
+    .icon {
+      color: hsl(0, 100%, 74%);
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+  }
+  p {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0 2rem 2rem 2rem;
+
+    span {
+      color: rgba(255, 0, 0, 0.8);
+    }
+  }
+}

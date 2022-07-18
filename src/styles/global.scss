@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url("../images/bg-intro-mobile.png") center center;
+  background-color: hsl(0, 100%, 74%);
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 700px) {
+  body {
+    background-image: url("../images/bg-intro-desktop.png") no-repeat;
+  }
+}
